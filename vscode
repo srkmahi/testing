@@ -1,0 +1,133 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.wrapTabs": true,
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.semi": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.codeActionsOnSave": {
+        "source.sortImports": "always",
+        "source.fixAll": "always",
+        "source.organizeImports": "always",
+        "source.fixAll.eslint": "always"
+    },
+    "sonarlint.rules": {
+        "javascript:S3776": {
+            "level": "off"
+        },
+        "javascript:S3358": {
+            "level": "off"
+        },
+        "javascript:S3317": {
+            "level": "off"
+        },
+        "typescript:S2201": {
+            "level": "off"
+        },
+        "javascript:S106": {
+            "level": "on"
+        },
+        "typescript:S117": {
+            "level": "on"
+        },
+        "javascript:S6479": {
+            "level": "off"
+        },
+        "javascript:S6480": {
+            "level": "off"
+        },
+        "javascript:S1481": {
+            "level": "off"
+        },
+        "javascript:S6551": {
+            "level": "on"
+        }
+    },
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "git-graph.dialog.merge.noCommit": true,
+    "git.allowNoVerifyCommit": true,
+    "npm.keybindingsChangedWarningShown": true,
+    "git.ignoreRebaseWarning": true,
+    "diffEditor.maxComputationTime": 0,
+    "editor.stickyScroll.enabled": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "footsteps.doHighlightCurrentlyFocusedChunk": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "rapidapi.terminalLink.enabled": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+        "​": true
+    },
+    "console-ninja.featureSet": "Community",
+    "explorer.confirmDragAndDrop": false,
+    "svg.preview.mode": "svg",
+    "terminal.integrated.env.osx": {},
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "redhat.telemetry.enabled": true,
+    "colorize.include": ["**/*.jsx", "**/*.js", "**/*.css", "**/*.scss", "**/*.sass", "**/*.less", "**/*.styl"],
+    "background.fullscreen": {
+        "image": "/Users/mahessh/Desktop/myGitlab/Batman-1.png",
+        "images": [],
+        "opacity": 0.91,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "pieces.setCopilotLocation": true,
+    "cloudcode.updateChannel": "recitation-limited",
+    "cloudcode.duetAI.project": "vz-it-pr-jq6v-aipair-0",
+    "cloudcode.duetAI.enable": true,
+    "javascript.preferences.importModuleSpecifier": "project-relative",
+    "path-intellisense.mappings": {
+        "@": "${workspaceRoot}/src"
+    },
+    "workbench.productIconTheme": "emoji-product-icons",
+    "editor.accessibilitySupport": "off",
+    "gitlens.ai.experimental.provider": "openai",
+    "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "workbench.editorAssociations": {
+        "{git,gitlens}:/**/*.{md,csv}": "default"
+    },
+    "vscode-office.editorTheme": "Dracula",
+    "accessibility.voice.speechLanguage": "en-IN",
+    "vscode-office.openOutline": true,
+    "workbench.colorTheme": "Default Dark+",
+    "hediet.vscode-drawio.resizeImages": null,
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "http.proxy": "http://chnproxy.verizon.com:80",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "gocodeo.authToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDg5NTIwMTUsImlhdCI6MTcxNzg0ODAxNSwic3ViIjoiNjY2NDQ3Y2RjYWNmZTE0MTVmZjE3YzBhIiwibmFtZSI6IiIsImlzX3ZlcmlmaWVkIjpmYWxzZX0.I7GZisaO80kArsL2urvMXWvbfxSx1CzHGeaU6To8F8s",
+    "gocodeo.jsTestFramework": "React Testing Library"
+}
