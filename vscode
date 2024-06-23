@@ -131,3 +131,27 @@
     "gocodeo.authToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDg5NTIwMTUsImlhdCI6MTcxNzg0ODAxNSwic3ViIjoiNjY2NDQ3Y2RjYWNmZTE0MTVmZjE3YzBhIiwibmFtZSI6IiIsImlzX3ZlcmlmaWVkIjpmYWxzZX0.I7GZisaO80kArsL2urvMXWvbfxSx1CzHGeaU6To8F8s",
     "gocodeo.jsTestFramework": "React Testing Library"
 }
+
+##############
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.format": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "eslint.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "workbench.editor.wrapTabs": true,
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
+
